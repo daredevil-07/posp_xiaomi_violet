@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_violet.mk
+    $(LOCAL_DIR)/potato_violet.mk
+
+COMMON_LUNCH_CHOICES := \
+    potato_violet-userdebug \
+    potato_violet-eng \
+    potato_violet-user
